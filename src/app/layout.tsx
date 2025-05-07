@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 import { store } from "@/redux/redux-store/store";
 import Navbar from "@/components/ui/Navbar/Navbar";
 import Footer from "@/components/ui/footer/Footer";
-import ThemeProvider from "@/components/theme-provider/ThemeProvider";
+
 
 
 const montserrat = Montserrat({
@@ -27,18 +27,13 @@ export default function RootLayout({
       <body
         className={`${montserrat.variable} antialiased bg-[#eff3f8] font-sans`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
+     
           <Provider store={store}>
             <Navbar />
             {children}
             <Footer />
           </Provider>
-        </ThemeProvider>
+  
       </body>
     </html>
   );
