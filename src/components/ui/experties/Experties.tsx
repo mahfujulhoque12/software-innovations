@@ -13,7 +13,7 @@ const Experties = () => {
   return (
     <div className="bg-[#767F8A] py-5 md:py-20">
       <MaxWidthWrapper>
-        <h2 className="text-3xl  font-bold  uppercase text-center text-white">
+        <h2 className="text-xl  md:text-3xl  font-bold  uppercase text-center text-white">
           Our Expertise
         </h2>
         <p className="h-[2px] bg-[#FAA61A] w-[100px] mt-3 flex mx-auto"></p>

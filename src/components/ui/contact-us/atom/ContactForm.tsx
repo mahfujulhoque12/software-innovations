@@ -20,7 +20,7 @@ const ContactForm = () => {
 
     <section className="pt-10 md:pt-15">
       <div>
-        <p className="font-semibold text-sm	uppercase  flex items-center justify-center gap-3">
+        <p className="font-semibold text-sm	uppercase  flex items-center justify-center gap-3 text-gray-900">
           Contact Us <FaPaperPlane className="text-[#FAA61A]" />
         </p>
         <h2 className="text-center mt-2 text-gray-700 uppercase font-bold">
