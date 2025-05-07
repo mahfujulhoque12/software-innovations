@@ -8,7 +8,7 @@ const Evolution = () => {
     <div className="relative bg-gradient-to-b from-black/10 to-[#FAA61A]/10 p-10">
        
     <MaxWidthWrapper>
-        <h2 className="text-xl md:text-3xl  font-bold  uppercase mt-20">
+        <h2 className="text-xl md:text-3xl  font-bold  uppercase mt-20 text-gray-900">
 From Environmental Roots to Information Technology Frontiers: <br /> The Evolution of Software Innovations
 </h2>
 <p className="h-[2px] bg-[#FAA61A] w-[100px] mt-3"></p>

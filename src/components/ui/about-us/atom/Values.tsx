@@ -17,7 +17,7 @@ const Values = () => {
 
       {/* 3) Content */}
       <div className="absolute max-w-2xl right-[25%] top-[10%] p-5">
-        <h3 className="text-3xl font-bold uppercase mt-20">
+        <h3 className="text-3xl font-bold uppercase mt-20 text-gray-900">
           Our Core Value
         </h3>
         <div className="h-[2px] bg-[#FAA61A] w-[100px] mt-2" />

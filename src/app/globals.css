@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* Enable class-based dark mode */
-@custom-variant dark (&:where(.dark, .dark *));
+/* @custom-variant dark (&:where(.dark, .dark *)); */
 
 html {
   transition: background-color 2s, color 2s;

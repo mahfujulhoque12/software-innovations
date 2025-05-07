@@ -10,7 +10,7 @@ const SucessWrapper = () => {
   return (
     <MaxWidthWrapper>
       <div className="md:py-20 py-5">
-        <h2 className="text-3xl  font-bold  uppercase text-center">
+        <h2 className="text-3xl  font-bold  uppercase text-center text-gray-900">
           Success Stories
         </h2>
         <p className="h-[2px] bg-[#FAA61A] w-[100px] mt-3 flex mx-auto"></p>

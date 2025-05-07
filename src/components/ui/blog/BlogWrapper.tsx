@@ -8,7 +8,7 @@ const BlogWrapper = () => {
     <MaxWidthWrapper>
 
         <div className='px-2 py-5 mt-5'>
-            <h1 className='text-xl sm:text-2xl lg:text-3xl font-bold text-gray-700 dark:text-gray-200'>Hi!, Good Day</h1>
+            <h1 className='text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900'>Hi!, Good Day</h1>
             <BlogCard/>
             <BlogList/>
         </div>
