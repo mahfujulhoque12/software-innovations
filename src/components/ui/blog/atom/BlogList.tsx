@@ -86,7 +86,7 @@ const BlogList = () => {
                 />
               </div>
               <div className="basis-[65%] relative">
-                <button className="absolute right-0">
+                <button className="absolute right-0 text-gray-700">
                   <BsThreeDotsVertical size={20} />
                 </button>
 

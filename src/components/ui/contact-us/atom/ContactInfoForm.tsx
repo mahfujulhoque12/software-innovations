@@ -102,7 +102,7 @@ const ContactFormInfo: React.FC = () => {
       <form ref={form} onSubmit={handleSubmit}>
         <div className="flex gap-4">
           <div className="w-full">
-            <label className="font-medium text-xs">First Name</label>
+            <label className="font-medium text-xs text-gray-800">First Name</label>
             <input
               type="text"
               name="firstName"
@@ -116,7 +116,7 @@ const ContactFormInfo: React.FC = () => {
             )}
           </div>
           <div className="w-full">
-            <label className="font-medium text-xs">Last Name</label>
+            <label className="font-medium text-xs text-gray-800">Last Name</label>
             <input
               type="text"
               name="lastName"
@@ -133,7 +133,7 @@ const ContactFormInfo: React.FC = () => {
 
         <div className="flex gap-4 mt-8">
           <div className="w-full">
-            <label className="font-medium text-xs">Email</label>
+            <label className="font-medium text-xs text-gray-800">Email</label>
             <input
               type="email"
               name="email"
@@ -147,7 +147,7 @@ const ContactFormInfo: React.FC = () => {
             )}
           </div>
           <div className="w-full">
-            <label className="font-medium text-xs">Phone Number</label>
+            <label className="font-medium text-xs text-gray-800">Phone Number</label>
             <input
               type="text"
               name="phone"
@@ -163,7 +163,7 @@ const ContactFormInfo: React.FC = () => {
         </div>
 
         <div className="w-full mt-8">
-          <label className="font-medium text-xs">Subject</label>
+          <label className="font-medium text-xs ">Subject</label>
           <input
             type="text"
             name="subject"
@@ -178,7 +178,7 @@ const ContactFormInfo: React.FC = () => {
         </div>
 
         <div className="w-full mt-8">
-          <label className="font-medium text-xs">Message</label>
+          <label className="font-medium text-xs ">Message</label>
           <textarea
             name="message"
             placeholder="Write your Message"
@@ -198,7 +198,7 @@ const ContactFormInfo: React.FC = () => {
             checked={formData.agreeToPolicy}
             onChange={handleChange}
           />
-          <label className="text-base font-normal">
+          <label className="text-base font-normal text-gray-900">
             I agree to your{" "}
             <Link href="/privacy-policy" className="text-red-600 underline">
               privacy policy

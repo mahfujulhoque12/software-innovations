@@ -46,7 +46,7 @@ const Review= () => {
 
 
         <div>
-            <h2 className="text-3xl font-bold uppercase text-center text-gray-700">Join +40,000 Happy Customers Already Build There Software From Us</h2>
+            <h2 className="text-xl  md:text-3xl font-bold uppercase text-center text-gray-700">Join +40,000 Happy Customers Already Build There Software From Us</h2>
             <p className="h-[2px] bg-[#FAA61A] w-[200px] mt-2 flex mx-auto"></p>
 
             <div className="bg-[#ffffff] p-4 shadow-md border border-gray-300 mt-6">

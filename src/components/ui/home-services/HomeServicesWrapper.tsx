@@ -9,7 +9,7 @@ const HomeServicesWrapper = () => {
   return (
     <div className="w-full h-full bg-gradient-to-r from-black/10 to-[#FAA61A]/15 py-5 md:py-20">
       <MaxWidthWrapper>
-        <h2 className="text-3xl  font-bold  uppercase text-center">Services</h2>
+        <h2 className="text-xl md:text-3xl  font-bold  uppercase text-center">Services</h2>
         <p className="h-[2px] bg-[#FAA61A] w-[100px] mt-3 flex mx-auto"></p>
 
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">

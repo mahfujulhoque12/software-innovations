@@ -41,8 +41,8 @@ const TopNavbar = () => {
           <div className="flex items-center gap-3">
              {/* <ThemeToggle /> */}
              <Link href="" className="text-sm font-normal px-2 py-1  md:text-base md:font-semibold text-white bg-[#F6881F] md:px-4 md:py-2 rounded-md">Sedule for Meeting</Link>
-            <button  className="bg-btn block md:hidden text-color-btn shadow-sm p-2 rounded-full" onClick={() => setIsDrawerOpen(true)}>
-              <HiMiniBars3CenterLeft  size={20} className="text-[#333B4E] dark:text-gray-100 rotate-180 " />
+            <button  className="bg-gray-100 block md:hidden text-color-btn shadow-sm p-2 rounded-full" onClick={() => setIsDrawerOpen(true)}>
+              <HiMiniBars3CenterLeft  size={20} className="text-[#333B4E]  rotate-180 " />
             </button> 
 
        

@@ -7,7 +7,7 @@ const UIUX = () => {
   return (
     <MaxWidthWrapper>
       <div className="my-5 md:my-10 ">
-        <h1 className="text-3xl font-bold uppercase text-center text-gray-700">
+        <h1 className=" text-xl  md:text-3xl font-bold uppercase text-center text-gray-700">
           Custom UIUX  Design
         </h1>
         <p className="h-[2px] bg-[#FAA61A] w-[200px] mt-2 flex mx-auto"></p>
@@ -21,7 +21,7 @@ const UIUX = () => {
               alt="img"
               width={600}
               height={300}
-              className="rounded-tr-[150px] rounded-bl-[150px]"
+              className="rounded-tr-[150px] rounded-bl-[150px] px-3 md:px-0"
             />
           </div> 
 

@@ -17,7 +17,7 @@ const IndustriesWrapper = () => {
         </div>
 
         <div className='px-3 md:px-0'>
-        <h2 className="text-3xl  font-bold  uppercase text-gray-900 ">
+        <h2 className="text-xl  md:text-3xl  font-bold  uppercase text-gray-900 ">
             Industries Served</h2>
         <p className="h-[2px] bg-[#FAA61A] w-[100px] mt-3 "></p>
 
@@ -28,7 +28,7 @@ const IndustriesWrapper = () => {
 
         <FaHouseFlag size={30} className='text-white' />
             </button>
-            <p className='text-gray-800 text-2xl font-semibold'>Government</p>
+            <p className='text-gray-800 text-lg md:text-2xl font-semibold'>Government</p>
         </div>
    {/* ---------- */}
 
@@ -38,7 +38,7 @@ const IndustriesWrapper = () => {
 
         <FaArrowsDownToPeople  size={30} className='text-white' />
             </button>
-            <p className='text-gray-800 text-2xl font-semibold'>Multilateral Organizations</p>
+            <p className='text-gray-800 text-lg md:text-2xl font-semibold'>Multilateral Organizations</p>
         </div>
    {/* ---------- */}
        {/* ---------- */}
@@ -47,7 +47,7 @@ const IndustriesWrapper = () => {
 
         <LuUtilityPole  size={30} className='text-white' />
             </button>
-            <p className='text-gray-800 text-2xl font-semibold'>Utilities</p>
+            <p className='text-gray-800 text-lg md:text-2xl font-semibold'>Utilities</p>
         </div>
    {/* ---------- */}
        {/* ---------- */}
@@ -56,7 +56,7 @@ const IndustriesWrapper = () => {
 
         <MdAgriculture  size={30} className='text-white' />
             </button>
-            <p className='text-gray-800 text-2xl font-semibold'>Agriculture</p>
+            <p className='text-gray-800 text-lg md:text-2xl font-semibold'>Agriculture</p>
         </div>
    {/* ---------- */}
        {/* ---------- */}
@@ -65,7 +65,7 @@ const IndustriesWrapper = () => {
 
         <HiAcademicCap  size={30} className='text-white' />
             </button>
-            <p className='text-gray-800 text-2xl font-semibold'>Academia and Research</p>
+            <p className='text-gray-800 text-lg md:text-2xl font-semibold'>Academia and Research</p>
         </div>
    {/* ---------- */}
        {/* ---------- */}
@@ -74,7 +74,7 @@ const IndustriesWrapper = () => {
 
         <MdOutlineHomeWork  size={30} className='text-white' />
             </button>
-            <p className='text-gray-800 text-2xl font-semibold'>
+            <p className='text-gray-800 text-lg md:text-2xl font-semibold'>
 Non-profits
 </p>
         </div>
@@ -85,7 +85,7 @@ Non-profits
 
         <FaBuilding  size={30} className='text-white' />
             </button>
-            <p className='text-gray-800 text-2xl font-semibold'>Private Organizations</p>
+            <p className='text-gray-800 text-lg md:text-2xl font-semibold'>Private Organizations</p>
         </div>
    {/* ---------- */}
        {/* ---------- */}
@@ -94,7 +94,7 @@ Non-profits
 
         <MdEmojiTransportation  size={30} className='text-white' />
             </button>
-            <p className='text-gray-800 text-2xl font-semibold'>Transportation</p>
+            <p className='text-gray-800 text-lg md:text-2xl font-semibold'>Transportation</p>
         </div>
    {/* ---------- */}
        {/* ---------- */}
@@ -103,7 +103,7 @@ Non-profits
 
         <FaLuggageCart   size={30} className='text-white' />
             </button>
-            <p className='text-gray-800 text-2xl font-semibold'>
+            <p className='text-gray-800 text-lg md:text-2xl font-semibold'>
 Land Development Agencies
 </p>
         </div>
@@ -115,7 +115,7 @@ Land Development Agencies
 
         <FaHeartCircleBolt   size={30} className='text-white' />
             </button>
-            <p className='text-gray-800 text-2xl font-semibold'>Healthcare</p>
+            <p className='text-gray-800 text-lg md:text-2xl font-semibold'>Healthcare</p>
         </div>
    {/* ---------- */}
 
