@@ -32,7 +32,7 @@ const Page = ({ params }: PageProps) => {
       </button>
       <Image src={blog.img} alt="img" width={2000} height={500} className="sm:h-[500px] object-cover" />
 
-      <div className="bg-btn p-4">
+      <div className="bg-gray-100 p-4">
         <button className="text-sm sm:text-base font-medium text-gray-700   px-3 py-1 rounded-md ">
           {blog.subTitle}
         </button>
