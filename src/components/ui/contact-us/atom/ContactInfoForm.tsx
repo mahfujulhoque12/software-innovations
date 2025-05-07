@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
+
 import Image from "next/image";
 import Link from "next/link";
 import plain from "/public/contact/contact3.png";
@@ -28,9 +28,9 @@ const ContactFormInfo: React.FC = () => {
     agreeToPolicy: false,
   });
 
-  const [errors, setErrors] = useState<{ [K in keyof FormData]?: string }>({});
-  const [successMessage, setSuccessMessage] = useState<string | null>(null);
-  const [loadin, setLoading] = useState(false);
+  const [errors, ] = useState<{ [K in keyof FormData]?: string }>({});
+  const [successMessage, ] = useState<string | null>(null);
+  const [loadin, ] = useState(false);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -43,58 +43,27 @@ const ContactFormInfo: React.FC = () => {
     });
   };
 
-  const validate = () => {
-    const tempErrors: { [K in keyof FormData]?: string } = {};
-    if (!formData.firstName) tempErrors.firstName = "First Name is required";
-    if (!formData.lastName) tempErrors.lastName = "Last Name is required";
-    if (!formData.email) {
-      tempErrors.email = "Email is required";
-    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      tempErrors.email = "Email is not valid";
-    }
-    if (!formData.phone) tempErrors.phone = "Phone Number is required";
-    if (!formData.subject) tempErrors.subject = "Subject is required";
-    if (!formData.message) tempErrors.message = "Message is required";
-    if (!formData.agreeToPolicy)
-      tempErrors.agreeToPolicy = "You must agree to the privacy policy";
-    setErrors(tempErrors);
-    return Object.keys(tempErrors).length === 0;
-  };
+  // const validate = () => {
+  //   const tempErrors: { [K in keyof FormData]?: string } = {};
+  //   if (!formData.firstName) tempErrors.firstName = "First Name is required";
+  //   if (!formData.lastName) tempErrors.lastName = "Last Name is required";
+  //   if (!formData.email) {
+  //     tempErrors.email = "Email is required";
+  //   } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+  //     tempErrors.email = "Email is not valid";
+  //   }
+  //   if (!formData.phone) tempErrors.phone = "Phone Number is required";
+  //   if (!formData.subject) tempErrors.subject = "Subject is required";
+  //   if (!formData.message) tempErrors.message = "Message is required";
+  //   if (!formData.agreeToPolicy)
+  //     tempErrors.agreeToPolicy = "You must agree to the privacy policy";
+  //   setErrors(tempErrors);
+  //   return Object.keys(tempErrors).length === 0;
+  // };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (validate() && form.current) {
-      setLoading(true);
-      emailjs
-        .sendForm(
-          "service_kfj3cro",
-          "template_lfluq19",
-          form.current,
-          "orx1MIs4yluPGG7mH"
-        )
-        .then(
-          () => {
-            console.log("SUCCESS!");
-            setSuccessMessage("Your message has been sent successfully!");
-            setFormData({
-              firstName: "",
-              lastName: "",
-              email: "",
-              phone: "",
-              subject: "",
-              message: "",
-              agreeToPolicy: false,
-            });
-            setErrors({});
-            setTimeout(() => setSuccessMessage(null), 3000);
-            setLoading(false);
-          },
-          (error) => {
-            console.error("FAILED...", error.text);
-            setLoading(false);
-          }
-        );
-    }
+
   };
 
   return (
