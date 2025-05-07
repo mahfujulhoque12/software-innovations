@@ -57,7 +57,7 @@ const BlogList = () => {
             className={`p-2 text-sm sm:text-base lg:text-lg font-semibold cursor-pointer border-b-2 whitespace-nowrap ${
               selectedCategory === cat
                 ? "text-[#FAA61A] border-b-[#FAA61A]"
-                : "text-gray-500 dark:text-gray-300 border-b-transparent"
+                : "text-gray-700  border-b-transparent"
             }`}
           >
             {cat}
@@ -74,7 +74,7 @@ const BlogList = () => {
           return (
             <div
               key={item.id}
-              className="mt-3 p-3 rounded-md flex gap-3 bg-white dark:bg-[#111827] shadow"
+              className="mt-3 p-3 rounded-md flex gap-3 bg-white  shadow"
             >
               <div className="basis-[35%] ">
                 <Image
@@ -118,12 +118,12 @@ const BlogList = () => {
                   </div>
                 )}
 
-                <button className="text-sm font-medium text-gray-600 bg-btn px-3 py-1 rounded-md dark:text-gray-200">
+                <button className="text-sm font-medium text-gray-600 bg-btn px-3 py-1 rounded-md">
                   {item.subTitle}
                 </button>
 
                 <Link href={`/blog/${item.slug}`}>
-                  <p className="text-lg font-semibold text-gray-700 leading-tight dark:text-gray-200">
+                  <p className="text-lg font-semibold text-gray-700 leading-tight">
                     {item.title}
                   </p>
                 </Link>
@@ -137,10 +137,10 @@ const BlogList = () => {
                     className="rounded-full border border-gray-200"
                   />
                   <div>
-                    <p className="text-sm font-medium text-gray-500 dark:text-gray-300">
+                    <p className="text-sm font-medium text-gray-600 ">
                       {item.userName}
                     </p>
-                    <p className="text-xs font-medium text-gray-500 dark:text-gray-300">
+                    <p className="text-xs font-medium text-gray-600 ">
                       {item.userTitle}
                     </p>
                   </div>

@@ -43,7 +43,7 @@ const BlogCard = () => {
     if (isLoading) return <p className="text-base font-semibold">Loading...</p>;
 
   return (
-    <div className="mt-2 bg-[#E5EDEF] dark:bg-[#111827] p-3 rounded-md flex sm:flex-col md:flex-row gap-3 sm:gap-5">
+    <div className="mt-2 bg-[#E5EDEF]  p-3 rounded-md flex sm:flex-col md:flex-row gap-3 sm:gap-5">
       <div className="flex sm:flex-col gap-3 sm:basis-[60%]">
 
       <div className="basis-[35%]">
@@ -64,13 +64,13 @@ const BlogCard = () => {
 <IoMdClose />
 
 </button>
-<h4 className="text-base font-medium text-gray-600 dark:text-gray-300">
+<h4 className="text-base font-medium text-gray-700 ">
   Contine Reading
 </h4>
-<p className="text-lg font-semibold text-gray-700 leading-tight dark:text-gray-300">
+<p className="text-lg font-semibold text-gray-700 leading-tight ">
   Lorem ipsum dolor sit amet consectetur adipisicing
 </p>
-<p className="text-sm font-normal text-gray-600 text-end dark:text-gray-300">3 left</p>
+<p className="text-sm font-normal text-gray-700 text-end ">3 left</p>
 <div className="mt-2 relative">
 <p className="bg-gray-400 h-[4px] w-full rounded-md"></p>
 
@@ -133,7 +133,7 @@ const BlogCard = () => {
             </div>
           )}
 
-          <button className="mt-4 text-sm font-medium text-gray-600 bg-gray-100 px-3 py-1 rounded-md">
+          <button className="mt-4 text-sm font-medium text-gray-700 bg-gray-100 px-3 py-1 rounded-md">
             {item.subTitle}
           </button>
 

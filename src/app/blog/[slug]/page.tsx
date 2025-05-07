@@ -23,7 +23,7 @@ const Page = ({ params }: PageProps) => {
   if (!blog) return notFound();
 
   return (
-    <div className="relative mb-10 bg-primary">
+    <div className="relative mb-10 ">
       <Link href="/blog" className="cursor-pointer absolute left-3 top-3 text-white">
         <FaChevronLeft  size={20} />
       </Link>
@@ -33,10 +33,10 @@ const Page = ({ params }: PageProps) => {
       <Image src={blog.img} alt="img" width={2000} height={500} className="sm:h-[500px] object-cover" />
 
       <div className="bg-btn p-4">
-        <button className="text-sm sm:text-base font-medium text-gray-600 dark:text-gray-300  px-3 py-1 rounded-md ">
+        <button className="text-sm sm:text-base font-medium text-gray-700   px-3 py-1 rounded-md ">
           {blog.subTitle}
         </button>
-        <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-200 mt-3">{blog.title}</h2>
+        <h2 className="text-3xl font-bold text-gray-800  mt-3">{blog.title}</h2>
 
         {/* user info  start*/}
         <div className="mt-4 flex items-center gap-2 ">
@@ -50,7 +50,7 @@ const Page = ({ params }: PageProps) => {
           <div>
             {/* ------- */}
             <div className="flex items-center gap-2">
-              <p className="text-sm sm:text-base font-medium text-gray-500 dark:text-gray-300">
+              <p className="text-sm sm:text-base font-medium text-gray-700 ">
                 {blog.userName}
               </p>
               <p className="text-sm sm:text-base font-semibold text-green-600 flex items-center gap-1">
@@ -61,11 +61,11 @@ const Page = ({ params }: PageProps) => {
 
             {/* --********------- */}
             <div className="flex items-center gap-2">
-              <p className="text-xs sm:text-sm  font-medium text-gray-500 dark:text-gray-300"> 24 May 2025 </p>
-              <p className="text-xs sm:text-sm  font-medium text-gray-500 dark:text-gray-300 flex items-center gap-1">
+              <p className="text-xs sm:text-sm  font-medium text-gray-700 "> 24 May 2025 </p>
+              <p className="text-xs sm:text-sm  font-medium text-gray-700  flex items-center gap-1">
                 <GoDotFill size={15} /> 5 min ago
               </p>
-              <p className="text-xs sm:text-sm  font-medium text-gray-500 dark:text-gray-300 flex items-center gap-1">
+              <p className="text-xs sm:text-sm  font-medium text-gray-700  flex items-center gap-1">
                 <GoDotFill size={15} /> 124 post new
               </p>
             </div>
@@ -76,17 +76,17 @@ const Page = ({ params }: PageProps) => {
         {/* user info end */}
 
         {/* paragraph */}
-        <p className="mt-5 text-sm sm:text-base font-medium text-gray-600 dark:text-gray-300 capitalize">
+        <p className="mt-5 text-sm sm:text-base font-medium text-gray-700  capitalize">
           {blog.des1}
         </p>
-        <p className="mt-5 text-sm sm:text-base font-medium text-gray-600 dark:text-gray-300 capitalize">
+        <p className="mt-5 text-sm sm:text-base font-medium text-gray-700  capitalize">
           {blog.des2}
         </p>
-        <p className="mt-5 text-sm sm:text-base font-medium text-gray-600 dark:text-gray-300 capitalize">
+        <p className="mt-5 text-sm sm:text-base font-medium text-gray-700  capitalize">
           {blog.des3}
         </p>
 
-        <p className="mt-5 text-sm sm:text-base font-medium text-gray-600 dark:text-gray-300 capitalize">
+        <p className="mt-5 text-sm sm:text-base font-medium text-gray-700  capitalize">
           {blog.des4}
         </p>
 

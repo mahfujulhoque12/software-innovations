@@ -17,7 +17,7 @@ const IndustriesWrapper = () => {
         </div>
 
         <div className='px-3 md:px-0'>
-        <h2 className="text-3xl  font-bold  uppercase ">
+        <h2 className="text-3xl  font-bold  uppercase text-gray-900 ">
             Industries Served</h2>
         <p className="h-[2px] bg-[#FAA61A] w-[100px] mt-3 "></p>
 
