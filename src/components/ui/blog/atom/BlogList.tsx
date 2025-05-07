@@ -118,7 +118,7 @@ const BlogList = () => {
                   </div>
                 )}
 
-                <button className="text-sm font-medium text-gray-600 bg-btn px-3 py-1 rounded-md">
+                <button className="text-sm font-medium text-gray-600 bg-gray-100 px-3 py-1 rounded-md">
                   {item.subTitle}
                 </button>
 
@@ -151,7 +151,7 @@ const BlogList = () => {
         })}
 
         {filteredData.length === 0 && (
-          <p className="text-center text-gray-500 dark:text-gray-300 mt-10">No blogs found.</p>
+          <p className="text-center text-gray-500  mt-10">No blogs found.</p>
         )}
       </div>
     </div>
