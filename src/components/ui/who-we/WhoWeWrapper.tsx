@@ -32,7 +32,7 @@ const WhoWeWrapper = () => {
             {/* who we are left inside */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-12 mb-32">
               {/* card one */}
-              <div className="relative">
+              <div className="relative px-3 md:px-0">
                 <Image
                   src={we1}
                   alt="we"
@@ -58,7 +58,7 @@ const WhoWeWrapper = () => {
 
               {/* card tow  */}
 
-              <div className="relative mt-30 md:mt-0">
+              <div className="relative mt-30 md:mt-0 px-3 md:px-0">
                 <Image
                   src={we2}
                   alt="we"
